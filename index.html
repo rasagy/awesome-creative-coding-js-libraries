@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Awesome Creative Coding Libraries for Designers</title>
+<title>Creative Coding Libraries for Designers</title>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -193,6 +193,7 @@
   .cat-audio .lib-card::before { background: var(--accent-5); }
   .cat-anim .lib-card::before { background: var(--accent-4); }
   .cat-physics .lib-card::before { background: var(--accent-1); }
+  .cat-typography .lib-card::before { background: var(--accent-3); }
 
   .lib-top {
     display: flex;
@@ -270,6 +271,7 @@
   .cat-audio .lib-dot { background: var(--accent-5); }
   .cat-anim .lib-dot { background: var(--accent-4); }
   .cat-physics .lib-dot { background: var(--accent-1); }
+  .cat-typography .lib-dot { background: var(--accent-3); }
 
   /* Footer */
   footer {
@@ -295,8 +297,8 @@
 <header>
   <p class="eyebrow">Designer's Toolkit · Creative Coding</p>
   <h1>Build things that <em>move,<br>breathe & surprise.</em></h1>
-  <p class="subtitle">A curated set of awesome JavaScript libraries and frameworks that let designers push ideas beyond static screens — no deep engineering required.</p>
-  <span class="count-badge">18 libraries across 6 categories</span>
+  <p class="subtitle">A curated set of JavaScript libraries and frameworks that let designers push ideas beyond static screens — no deep engineering required.</p>
+  <span class="count-badge">33 libraries across 7 categories</span>
 </header>
 
 <nav class="cat-nav">
@@ -306,6 +308,7 @@
   <a class="cat-pill" href="#audio">🔊 Audio & Music</a>
   <a class="cat-pill" href="#animation">✨ Animation</a>
   <a class="cat-pill" href="#physics">🌊 Physics & Simulation</a>
+  <a class="cat-pill" href="#typography">🔤 Typography</a>
 </nav>
 
 <main>
@@ -315,7 +318,7 @@
     <div class="cat-header">
       <span class="cat-icon">🎨</span>
       <span class="cat-name">Interactive Visuals & Generative Art</span>
-      <span class="cat-count">4 libraries</span>
+      <span class="cat-count">7 libraries</span>
     </div>
     <div class="libs-grid">
 
@@ -367,6 +370,42 @@
         </div>
       </a>
 
+      <a class="lib-card" href="https://ptsjs.org" target="_blank">
+        <div class="lib-top">
+          <span class="lib-name"><span class="lib-dot"></span>pts.js</span>
+          <span class="lib-tag">Geometry & Math</span>
+        </div>
+        <p class="lib-desc">A library for creative coding built around points, forms, and spaces — an elegant math-meets-art API great for geometric explorations and spatial thinking.</p>
+        <div class="lib-footer">
+          <span class="lib-url">ptsjs.org</span>
+          <span class="lib-arrow">↗</span>
+        </div>
+      </a>
+
+      <a class="lib-card" href="https://svgjs.dev" target="_blank">
+        <div class="lib-top">
+          <span class="lib-name"><span class="lib-dot"></span>svg.js</span>
+          <span class="lib-tag">Vector</span>
+        </div>
+        <p class="lib-desc">Lightweight, expressive library for creating and animating SVGs in fine detail — ideal for designers who think natively in vectors and paths.</p>
+        <div class="lib-footer">
+          <span class="lib-url">svgjs.dev</span>
+          <span class="lib-arrow">↗</span>
+        </div>
+      </a>
+
+      <a class="lib-card" href="https://zzz.dog" target="_blank">
+        <div class="lib-top">
+          <span class="lib-name"><span class="lib-dot"></span>Zdog</span>
+          <span class="lib-tag">Pseudo-3D</span>
+        </div>
+        <p class="lib-desc">A flat-design 3D engine for canvas and SVG — makes pseudo-3D illustrated scenes that feel like interactive Dribbble shots come to life.</p>
+        <div class="lib-footer">
+          <span class="lib-url">zzz.dog</span>
+          <span class="lib-arrow">↗</span>
+        </div>
+      </a>
+
     </div>
   </section>
 
@@ -375,7 +414,7 @@
     <div class="cat-header">
       <span class="cat-icon">🧊</span>
       <span class="cat-name">3D & WebGL</span>
-      <span class="cat-count">4 libraries</span>
+      <span class="cat-count">7 libraries</span>
     </div>
     <div class="libs-grid">
 
@@ -423,6 +462,42 @@
         <p class="lib-desc">A minimal WebGL library for designers who want direct shader control without the overhead — perfect for custom visual effects and experiments.</p>
         <div class="lib-footer">
           <span class="lib-url">oframe.github.io/ogl</span>
+          <span class="lib-arrow">↗</span>
+        </div>
+      </a>
+
+      <a class="lib-card" href="https://babylonjs.com" target="_blank">
+        <div class="lib-top">
+          <span class="lib-name"><span class="lib-dot"></span>Babylon.js</span>
+          <span class="lib-tag">Game Engine</span>
+        </div>
+        <p class="lib-desc">A powerful, feature-rich 3D engine with a visual inspector and physics built in — closer to a game engine, great for immersive web experiences.</p>
+        <div class="lib-footer">
+          <span class="lib-url">babylonjs.com</span>
+          <span class="lib-arrow">↗</span>
+        </div>
+      </a>
+
+      <a class="lib-card" href="https://theatrejs.com" target="_blank">
+        <div class="lib-top">
+          <span class="lib-name"><span class="lib-dot"></span>Theatre.js</span>
+          <span class="lib-tag">Visual Editor</span>
+        </div>
+        <p class="lib-desc">A visual animation editor for the web — design 3D and DOM animations with a keyframe timeline UI, no pure-code guesswork required.</p>
+        <div class="lib-footer">
+          <span class="lib-url">theatrejs.com</span>
+          <span class="lib-arrow">↗</span>
+        </div>
+      </a>
+
+      <a class="lib-card" href="https://curtainsjs.com" target="_blank">
+        <div class="lib-top">
+          <span class="lib-name"><span class="lib-dot"></span>Curtains.js</span>
+          <span class="lib-tag">Shader Effects</span>
+        </div>
+        <p class="lib-desc">Adds WebGL shader effects to regular HTML/CSS elements — the easiest way to make images and planes ripple, distort, and warp on scroll or hover.</p>
+        <div class="lib-footer">
+          <span class="lib-url">curtainsjs.com</span>
           <span class="lib-arrow">↗</span>
         </div>
       </a>
@@ -483,7 +558,7 @@
     <div class="cat-header">
       <span class="cat-icon">🔊</span>
       <span class="cat-name">Audio, Music & Sound</span>
-      <span class="cat-count">3 libraries</span>
+      <span class="cat-count">5 libraries</span>
     </div>
     <div class="libs-grid">
 
@@ -523,6 +598,30 @@
         </div>
       </a>
 
+      <a class="lib-card" href="https://alemangui.github.io/pizzicato" target="_blank">
+        <div class="lib-top">
+          <span class="lib-name"><span class="lib-dot"></span>Pizzicato.js</span>
+          <span class="lib-tag">Simple Audio</span>
+        </div>
+        <p class="lib-desc">A dead-simple library for creating and manipulating sounds in the browser — great for designers who want audio effects without the Web Audio API complexity.</p>
+        <div class="lib-footer">
+          <span class="lib-url">alemangui.github.io/pizzicato</span>
+          <span class="lib-arrow">↗</span>
+        </div>
+      </a>
+
+      <a class="lib-card" href="https://magenta.tensorflow.org/js" target="_blank">
+        <div class="lib-top">
+          <span class="lib-name"><span class="lib-dot"></span>Magenta.js</span>
+          <span class="lib-tag">AI Music</span>
+        </div>
+        <p class="lib-desc">Google's ML library for music and art generation — create AI-assisted melodies, drum patterns, and musical continuations directly in the browser.</p>
+        <div class="lib-footer">
+          <span class="lib-url">magenta.tensorflow.org/js</span>
+          <span class="lib-arrow">↗</span>
+        </div>
+      </a>
+
     </div>
   </section>
 
@@ -531,7 +630,7 @@
     <div class="cat-header">
       <span class="cat-icon">✨</span>
       <span class="cat-name">Animation & Motion</span>
-      <span class="cat-count">2 libraries</span>
+      <span class="cat-count">5 libraries</span>
     </div>
     <div class="libs-grid">
 
@@ -559,6 +658,42 @@
         </div>
       </a>
 
+      <a class="lib-card" href="https://animejs.com" target="_blank">
+        <div class="lib-top">
+          <span class="lib-name"><span class="lib-dot"></span>Anime.js</span>
+          <span class="lib-tag">Lightweight</span>
+        </div>
+        <p class="lib-desc">Lightweight, versatile animation engine for CSS, SVG, and DOM — beloved for its clean API and chainable timelines that make complex sequences feel effortless.</p>
+        <div class="lib-footer">
+          <span class="lib-url">animejs.com</span>
+          <span class="lib-arrow">↗</span>
+        </div>
+      </a>
+
+      <a class="lib-card" href="https://airbnb.io/lottie" target="_blank">
+        <div class="lib-top">
+          <span class="lib-name"><span class="lib-dot"></span>Lottie</span>
+          <span class="lib-tag">After Effects → Web</span>
+        </div>
+        <p class="lib-desc">Renders After Effects animations as lightweight JSON on the web — the definitive bridge between motion designers and developers.</p>
+        <div class="lib-footer">
+          <span class="lib-url">airbnb.io/lottie</span>
+          <span class="lib-arrow">↗</span>
+        </div>
+      </a>
+
+      <a class="lib-card" href="https://popmotion.io" target="_blank">
+        <div class="lib-top">
+          <span class="lib-name"><span class="lib-dot"></span>Popmotion</span>
+          <span class="lib-tag">Spring Physics</span>
+        </div>
+        <p class="lib-desc">A tiny, functional animation library that powers Framer Motion under the hood — great for spring physics and pointer-driven motion with a minimal footprint.</p>
+        <div class="lib-footer">
+          <span class="lib-url">popmotion.io</span>
+          <span class="lib-arrow">↗</span>
+        </div>
+      </a>
+
     </div>
   </section>
 
@@ -567,7 +702,7 @@
     <div class="cat-header">
       <span class="cat-icon">🌊</span>
       <span class="cat-name">Physics, Simulation & ML</span>
-      <span class="cat-count">4 libraries</span>
+      <span class="cat-count">6 libraries</span>
     </div>
     <div class="libs-grid">
 
@@ -583,6 +718,18 @@
         </div>
       </a>
 
+      <a class="lib-card" href="https://rapier.rs" target="_blank">
+        <div class="lib-top">
+          <span class="lib-name"><span class="lib-dot"></span>Rapier.js</span>
+          <span class="lib-tag">Rust / WASM</span>
+        </div>
+        <p class="lib-desc">A modern, blazing-fast physics engine written in Rust and compiled to WASM — pairs beautifully with Three.js and React Three Fiber for realistic simulations.</p>
+        <div class="lib-footer">
+          <span class="lib-url">rapier.rs</span>
+          <span class="lib-arrow">↗</span>
+        </div>
+      </a>
+
       <a class="lib-card" href="https://ml5js.org" target="_blank">
         <div class="lib-top">
           <span class="lib-name"><span class="lib-dot"></span>ml5.js</span>
@@ -591,6 +738,18 @@
         <p class="lib-desc">Machine learning for artists and designers — use pose detection, image classification, and style transfer in the browser with just a few lines of code.</p>
         <div class="lib-footer">
           <span class="lib-url">ml5js.org</span>
+          <span class="lib-arrow">↗</span>
+        </div>
+      </a>
+
+      <a class="lib-card" href="https://tensorflow.org/js" target="_blank">
+        <div class="lib-top">
+          <span class="lib-name"><span class="lib-dot"></span>TensorFlow.js</span>
+          <span class="lib-tag">ML in Browser</span>
+        </div>
+        <p class="lib-desc">Run and train ML models directly in the browser — powers real-time webcam gesture recognition, image style transfer, and creative AI interactions.</p>
+        <div class="lib-footer">
+          <span class="lib-url">tensorflow.org/js</span>
           <span class="lib-arrow">↗</span>
         </div>
       </a>
@@ -622,11 +781,35 @@
     </div>
   </section>
 
+  <!-- TYPOGRAPHY -->
+  <section class="category cat-typography" id="typography">
+    <div class="cat-header">
+      <span class="cat-icon">🔤</span>
+      <span class="cat-name">Typography & Text</span>
+      <span class="cat-count">1 library</span>
+    </div>
+    <div class="libs-grid">
+
+      <a class="lib-card" href="https://splitting.js.org" target="_blank">
+        <div class="lib-top">
+          <span class="lib-name"><span class="lib-dot"></span>Splitting.js</span>
+          <span class="lib-tag">Text Animation</span>
+        </div>
+        <p class="lib-desc">Splits text into individual characters, words, or lines as HTML elements — unlocks character-by-character animations and typographic experiments with CSS or JS.</p>
+        <div class="lib-footer">
+          <span class="lib-url">splitting.js.org</span>
+          <span class="lib-arrow">↗</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
 </main>
 
 <footer>
   <span>Creative Coding Libraries for Designers</span>
-  <span>18 tools · 6 categories</span>
+  <span>33 tools · 7 categories</span>
 </footer>
 
 <script>
